@@ -30,6 +30,6 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * Synopsys Design Constraint(sdc) PLL.sdc file: to constrain the new 100MHZ clock we create.
    * Quartus PLL plug-ins for parameter settings:
    ![FPGA-based-Pong-game](doc/PLL.png)
-50MHZ system clock for keyboard,LCD and VGA.
-100MHZ PLL clock to get better performance for tanks and bullets FSM.
+   50MHZ system clock for keyboard,LCD and VGA.
+   100MHZ PLL clock to get better performance for tanks and bullets FSM.
 5. Scripts for simulation automation
