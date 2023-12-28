@@ -38,7 +38,7 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
 
    Using script to automate the simulation process:
    ```
-   do sim.do
+   do tb/sim.do
    ```
    Change simulation files in sim.do
    change waveform settings in wave.do
