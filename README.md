@@ -13,7 +13,7 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * Pixel_generator: generate pixels from tanks' and bullets' coordinates.
    * de2lcd: LCD module for score and win display.
    * Start_signal: generate 25HZ start signal for tanks and Bullet FSM.
-   * PLL: phase-locked loop to increase the system clock from 50MHZ to 100MHZ to get better performance for tanks and bullets FSM.
+   * PLL: phase-locked loop to increase the system clock from 50MHZ to 100MHZ.
    * VGA_top_level: Top-level module to wrap up all modules and display the game on VGA.
    
 2. Finite State Machine(FSM) controls tank movement and bullet movement
@@ -30,4 +30,6 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * Synopsys Design Constraint(sdc) PLL.sdc file: to constrain the new 100MHZ clock we create.
    * Quartus PLL plug-ins for parameter settings:
    ![FPGA-based-Pong-game](doc/PLL.png)
+50MHZ system clock for keyboard,LCD and VGA.
+100MHZ PLL clock to get better performance for tanks and bullets FSM.
 5. Scripts for simulation automation
