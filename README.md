@@ -18,8 +18,10 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    
 ### 2. Finite State Machine(FSM) controls tank movement and bullet movement
    FSM for tanks:
-   ![FPGA-based-Pong-game](doc/tankFSM.png)
-   * update on every start signal
+   
+   ![FPGA-based-Pong-game](doc/tankFSM.png)   
+   * update tank moving status on every start signal
+     
    FSM for Bullets:![FPGA-based-Pong-game](doc/bulletFSM.png)
    * LOAD: initial bullet coordinate
    * APPEAR: bullet moving
