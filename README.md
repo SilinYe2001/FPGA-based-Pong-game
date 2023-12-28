@@ -24,7 +24,9 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * LOAD: initial bullet coordinate
    * APPEAR: bullet moving
    * HIT:  bullet ends with score
-   * FINISH: bullet ends with not score
+   * FINISH: bullet ends with no score
    * WIN: score to 3 and win
 3. Phase-locked loop(PLL) implementation to improve clock frequency
-4. Scripts for simulation automation
+   * Synopsys Design Constraint(sdc) PLL.sdc file: to constrain the new 100MHZ clock we create.
+   * Quartus PLL plug-ins for parameter settings:
+5. Scripts for simulation automation
