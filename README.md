@@ -1,5 +1,5 @@
 # FPGA-based-Pong-game
-Implement Pong game on Altera DE2-115 board
+Implement Pong game on Altera DE2-115 board:https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=502
 
 Game example:![FPGA-based-Pong-game](doc/gameimage.png)
 ## Key features:
