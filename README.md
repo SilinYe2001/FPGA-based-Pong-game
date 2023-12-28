@@ -34,4 +34,4 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    50MHZ system clock for keyboard,LCD and VGA.
      
    100MHZ PLL clock to get better performance for tanks and bullets FSM.
-5. Scripts for simulation automation
+4. Scripts for simulation automation
