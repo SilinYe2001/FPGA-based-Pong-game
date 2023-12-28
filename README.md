@@ -17,6 +17,7 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * VGA_top_level: Top-level module to wrap up all modules and display the game on VGA.
    
 3. Finite State Machine(FSM) controls tank movement and bullet movement
-   
+   ### FSM for tanks:![FPGA-based-Pong-game](doc/tankFSM.png)
+   ### FSM for Bullets:![FPGA-based-Pong-game](doc/bulletFSM.png)
 5. Phase-locked loop(PLL) implementation to improve clock frequency
 6. Scripts for simulation automation
