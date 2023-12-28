@@ -29,4 +29,5 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
 3. Phase-locked loop(PLL) implementation to improve clock frequency
    * Synopsys Design Constraint(sdc) PLL.sdc file: to constrain the new 100MHZ clock we create.
    * Quartus PLL plug-ins for parameter settings:
+   ![FPGA-based-Pong-game](doc/PLL.png)
 5. Scripts for simulation automation
