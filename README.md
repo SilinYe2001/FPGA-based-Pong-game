@@ -35,3 +35,11 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
      
    100MHZ PLL clock to get better performance for tanks and bullets FSM.
 4. Scripts for simulation automation
+
+   Using script to automate the simulation process:
+   ```
+   do sim.do
+   ```
+   Change simulation files in sim.do
+   change waveform settings in wave.do
+   
