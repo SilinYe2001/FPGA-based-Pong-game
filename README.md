@@ -16,7 +16,7 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * PLL: phase-locked loop to increase the system clock from 50MHZ to 100MHZ to get better performance for tanks and bullets FSM.
    * VGA_top_level: Top-level module to wrap up all modules and display the game on VGA.
    
-3. Finite State Machine(FSM) controls tank movement and bullet movement
+2. Finite State Machine(FSM) controls tank movement and bullet movement
    ### FSM for tanks:
    ![FPGA-based-Pong-game](doc/tankFSM.png)
    * update on every start signal
@@ -26,5 +26,5 @@ Game example:![FPGA-based-Pong-game](doc/gameimage.png)
    * HIT:  bullet ends with score
    * FINISH: bullet ends with not score
    * WIN: score to 3 and win
-5. Phase-locked loop(PLL) implementation to improve clock frequency
-6. Scripts for simulation automation
+3. Phase-locked loop(PLL) implementation to improve clock frequency
+4. Scripts for simulation automation
